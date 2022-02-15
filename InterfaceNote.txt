@@ -1,0 +1,83 @@
+Inheritance
+-----------
+
+Inheritance types
+1) Multi-Level
+Employee
+Mgr
+----------
+Cart
+Customer
+------------------------------------------
+
+2) Multiple
+
+class Cart
+{
+
+}
+
+class Customer:Cart
+{
+
+}
+
+class PrimeCustomer:Customer, not possible
+{
+
+
+}
+*************************************
+Interfaces u can inherit more than one.
+
+Interface means a contract.
+interface can inherit a interface but cannot implement it.
+With whomever it comes , the interface can be implemented by the 
+derived class,  in the required/different ways
+What is Implement/Implementation?
+Writing code for the method signatures/methods.
+
+Methods are declared in the interface & implemented by the class.
+So declare a interface we require interface keyword.
+
+Rule
+-----
+1) Interface cannot have implemented members, it can only declare members ie only signature of method,property.
+2) access modifier with the interface member declaration, 
+but interface can have access modifier.
+3) One interface can have multiple members.
+4) One interface can inherit from one or more interfaces.
+5) Multiple Inheritance is allowed by interfaces.
+6) Interface must declare members which are common to classes.
+
+******************************************
+Client 1:add,subtract
+----------------------
+class A(
+{
+
+
+}
+
+----------------------
+Client 2:add,multiply
+----------------------
+Class B
+{
+
+}
+---------------------
+Client 3:add,subtract,multiply
+---------------------
+Class C
+{
+
+
+}
+
+
+
+
+
+
+
